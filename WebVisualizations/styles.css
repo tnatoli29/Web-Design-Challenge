@@ -1,29 +1,32 @@
-/* Add your styles here */
+.navbar{
+    position: absolute;
+    right: 30px;}
 
-.navbar {padding: 10px;
-         background: lightblue}
+.navbar a{
+  background-color:white;}
 
+body {
+  width: 100%;
+  min-height:100%;
+  background-color: lightgray;
+}
 
-.navbar li {display: inline-block;
-            padding: 20px;
-            margin-right: 10px;
-            margin-left: 10px;
-            cursor: pointer;
-            background: #fff;
-            border-radius: 3px;}
+.homebutton{
+  background-color: white;
+  z-index:2;}
 
-.navbar la a {
-                color: #000;
-                text-decoration: none;}
+.homebutton a{
+  width: 110px;
+  background: cyan;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 14px;
+  margin: 0px 0px 0px 40px;}
 
-
-h1 {font-size: 75px;
-    text-align: center;
-    background-color: lightgrey;
-    padding: 30px;}
-
-h3 {font-size: 25px;
-    text-indent: 30px;
-    padding-top: 25px;}
-
-p {display:inline-block;margin-left:2em;;}
+.divtop{
+  background-color: white;
+  z-index:2;}
