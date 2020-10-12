@@ -12,7 +12,7 @@
  <div>
      <div class = "row">
          <div class = "col col-6 homebutton">
-              <a ref="Landing.html">Latitude</a>
+              <a href="Landing.html">Latitude</a>
      </div>
      <div class = "col col-6 menubutton divtop">
 
@@ -36,7 +36,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Comparison <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Comparison</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Data</a>
@@ -48,13 +48,63 @@
    </div>
   </div>
  </div>
+<hr>
+<!-- image-->
+ <div class="container">
+  <div class="row">
+   <div class="col col-12 col-md-8 divbody">
+     <hr>
+ <!--Header 1 and paragraphs-->
+       <h1> Summary: Latitude vs. X</h1>
+       <hr>
+       <img src="Visualizations/lat_vs_temp.png" alt="Latitude vs Temperature" width="400" align="left">
+       <p> This project was used to find the relationship of a city's latitide versus either temperature, cloudiness,
+           wind, or humidity relative to how close the city was to the equator. The data was pulled from the
+           OpenWeatherMap API.</p>
+       <hr>
+       <p> Using the skills learned in the prior weeks, I was able to use Matplotlib to graph the data obtained
+           in the API. The graphs show a collection of over 550 cities around the world. As you will be able to see
+           on the graphs, some factors of temperature, wind, humidity, and cloudiness have a correlation with the city's
+           latitude, while other do not.</p>
+       <hr>
+   </div>
+<!--Other graph/links-->
+      <div class="col col-4 col-md4 divbody">
+          <hr>
+          <h2>Weather Visualizations</h2>
+          <hr>
+          <div class='row'>
+          <div class="col col-4 col-md-8">
+            <h3>Latitude vs. Temp</h3>
+              <a href="Temp.html"><img src="Visualizations/lat_vs_temp.png" width="200" align="right"
+                                       alt="Latitude vs. Temperature" ></a>
+          </div>
+          <div class="col col-2 col-md-8">
+              <h3>Latitude vs.Humidity</h3>
+            <a href="Humidity.html"><img src="Visualizations/lat_vs_humidity.png" width="200" align="right"
+                                         alt="Latitude vs. Humidty"></a>
+          </div>
+          <div class="col col-2 col-md-8">
+              <h3>Latitude vs. Cloudiness</h3>
+            <a href=Cloudiness.html"><img src="Visualizations/lat_vs_clouds.png" width="200" align="right"
+                                          alt="Latitude vs. Cloudiness"></a>
+          </div>
+          <div class="col col-2 col-md-8">
+              <h3>Latitude vs. Wind</h3>
+            <a href=Wind.html"><img src="Visualizations/lat_vs_wind.png" width="200" align="right"
+                                    alt="Latitude vs. Wind Speed"></a>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
 
 
 
 
 
-
-
-
+  </div>
+ </div>
 </body>
 </html>
