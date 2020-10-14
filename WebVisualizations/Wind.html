@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Wind</title>
-  <!-- Allow bootstrap stylesheet-->
+    <!-- Allow bootstrap stylesheet-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,7 +12,7 @@
  <div>
      <div class = "row">
          <div class = "col col-6 homebutton">
-              <a ref="Landing.html">Latitude</a>
+              <a href="Landing.html">Latitude</a>
      </div>
      <div class = "col col-6 menubutton divtop">
 
@@ -36,7 +36,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Comparison <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Comparison</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Data</a>
@@ -48,7 +48,48 @@
    </div>
   </div>
  </div>
+<hr>
+<!-- image-->
+ <div class="container">
+  <div class="row">
+   <div class="col col-12 col-md-8 divbody">
+  <hr>
+ <!--Header 1 and paragraphs-->
+       <h1> Latitude vs. Wind</h1>
+       <hr>
+       <img src="Visualizations/lat_vs_wind.png" alt="Latitude vs Wind" width="600" align="center">
+       <p>This graph shown is the correlation between a city's location based on their latitude, vs the wind speed they experience.
+       As you can see from the graph there is not much correlation between the two values. However most cities experience wind speeds
+       in the range of 0mph to 15mph.</p>
+       <hr>
+   </div>
+      <!--Other graph/links-->
+      <div class="col col-4 col-md4 divbody">
+          <hr>
+          <h2>Weather Visualizations</h2>
+          <hr>
+          <div class='row'>
+          <div class="col col-4 col-md-8">
+            <h3>Latitude vs. Temp</h3>
+              <a href="Temp.html"><img src="Visualizations/lat_vs_temp.png" width="200" align="right"
+                                       alt="Latitude vs. Temperature" ></a>
+          </div>
+          <div class="col col-2 col-md-8">
+              <h3>Latitude vs.Humidity</h3>
+            <a href="Humidity.html"><img src="Visualizations/lat_vs_humidity.png" width="200" align="right"
+                                         alt="Latitude vs. Humidty"></a>
+          </div>
+          <div class="col col-2 col-md-8">
+              <h3>Latitude vs. Cloudiness</h3>
+            <a href="Cloudiness.html"><img src="Visualizations/lat_vs_clouds.png" width="200" align="right"
+                                          alt="Latitude vs. Cloudiness"></a>
+          </div>
 
+        </div>
+      </div>
+
+
+      </div>
 
 
 
