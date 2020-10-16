@@ -65,3 +65,19 @@ p{
     color: black;
     text-align: left}
 
+/* media adjustments*/
+/*@media (max-width: 600px){
+    .navbar a{
+        background-color: cyan;
+    }
+
+    .navbar {
+        background-color: cyan;
+    }
+    .navbar a {
+        padding:inherit;
+    }
+    .divtop{
+    background-color: cyan}
+}
+*/
