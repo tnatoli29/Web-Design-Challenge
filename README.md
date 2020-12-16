@@ -8,3 +8,9 @@ I used HTML along with bootstrap to build the website.
 
 Below is a link the data used:
 [Python-API-Challenge](https://github.com/tnatoli29/Python-API-Challenge)
+
+
+Below are Images from the website, the first show the Home page and the second shows the Comparison page with the drop down menu. 
+![Home_page](Images/Webvis1.png)
+
+![Comparison_page](Images/Webvis2.png)
